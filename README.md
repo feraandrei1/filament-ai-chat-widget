@@ -6,12 +6,17 @@ AI chat widget for Filament v3 with OpenAI integration.
 ![Filament](https://img.shields.io/badge/Filament-v3-orange.svg)
 ![Laravel](https://img.shields.io/badge/Laravel-v11-red.svg)
 
+### Screenshots
+
+![Chat Widget 1](screenshots/photo-1.png)
+![Chat Widget 2](screenshots/photo-2.png)
+
 ## Requirements
 
-- PHP 8.1+
-- Laravel 11.x
-- Filament 3.x
-- OpenAI API key
+* PHP 8.1+
+* Laravel 11.x
+* Filament 3.x
+* OpenAI API key
 
 ## Installation
 
@@ -59,11 +64,19 @@ php artisan optimize:clear
 
 The chat widget appears automatically on all panel pages for authenticated users.
 
-## Publish config
+### Customization
+
+You can customize the behavior and appearance of the widget by publishing the configuration:
 
 ```bash
 php artisan vendor:publish --tag="filament-ai-chat-widget-config"
 ```
+
+Then edit `config/filament-ai-chat-widget.php` to adjust settings like:
+
+* Default AI model
+* Chat history limit
+* UI appearance
 
 ## License
 
