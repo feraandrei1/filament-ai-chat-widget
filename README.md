@@ -39,14 +39,18 @@ OPENAI_API_KEY=sk-your-api-key-here
 OPENAI_ORGANIZATION=your-organization-here
 ```
 
-Register the plugin in your Panel Provider:
+Register the plugin & knowledge resource in your Panel Provider:
 
 ```php
 use Feraandrei1\FilamentAiChatWidget\FilamentAiChatPlugin;
+use Feraandrei1\FilamentAiChatWidget\Filament\Resources\AiKnowledgeBaseResource;
 
 public function panel(Panel $panel): Panel
 {
     return $panel
+        ->resources([
+            AiKnowledgeBaseResource::class,
+        ])
         ->plugins([
             FilamentAiChatPlugin::make(),
         ]);

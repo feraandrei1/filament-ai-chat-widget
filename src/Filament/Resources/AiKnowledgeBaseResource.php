@@ -17,7 +17,7 @@ class AiKnowledgeBaseResource extends Resource
 {
     protected static ?string $model = AiKnowledgeBase::class;
 
-    protected static ?int $navigationSort = 11;
+    protected static ?string $navigationIcon = 'heroicon-o-chat-bubble-left-right';
 
     protected static function orderByOrderColumn(Builder $query): Builder
     {
@@ -120,10 +120,5 @@ class AiKnowledgeBaseResource extends Resource
     public static function getPluralModelLabel(): string
     {
         return __('AI knowledge bases');
-    }
-
-    public static function getNavigationGroup(): string
-    {
-        return __('Support');
     }
 }
