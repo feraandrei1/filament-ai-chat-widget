@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(composer dump-autoload:*)",
+      "Bash(composer validate:*)"
+    ]
+  }
+}
