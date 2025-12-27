@@ -1,12 +1,10 @@
 # Filament AI Chat
 
-AI chat widget for Filament v3 with OpenAI integration.
-
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Filament](https://img.shields.io/badge/Filament-v3-orange.svg)
 ![Laravel](https://img.shields.io/badge/Laravel-v11-red.svg)
 
-### Screenshots
+AI chat widget for Filament v3 with OpenAI integration.
 
 ![Chat Widget](screenshot.jpg)
 
