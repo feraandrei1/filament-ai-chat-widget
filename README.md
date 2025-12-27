@@ -8,7 +8,7 @@ AI chat widget for Filament v3 with OpenAI integration.
 
 ### Screenshots
 
-![Chat Widget](screenshot.png)
+![Chat Widget](screenshot.jpg)
 
 ## Requirements
 
